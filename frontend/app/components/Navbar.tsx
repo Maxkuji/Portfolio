@@ -57,7 +57,7 @@ export default function Navbar() { // สร้างฟังก์ชัน Na
             href={item.href}
             className="flex flex-col md:flex-row items-center gap-1 px-3 py-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
           >
-            <img src={item.iconSrc} alt={item.label} className="w-5 h-6 md:w-7 md:h-7" />
+            <img src={item.iconSrc} alt={item.label} className="w-5 h-5 md:w-7 md:h-7 object-contain" />
             <span className="hidden md:inline">{item.label}</span>
           </Link>
         ))}
